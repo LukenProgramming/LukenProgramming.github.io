@@ -3,15 +3,12 @@ body{
     height: 100vh;
 }
 
-div{
-    min-height: 50vh;
-}
-
 #header{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 100px;
+    height: 50vh;
 }
 
 #header h1{
@@ -47,6 +44,11 @@ div{
 nav{
     text-align: center;
     background-color: white;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 nav li a{
     text-decoration: none;
@@ -84,5 +86,33 @@ nav li a:hover{
     .hidden {
         transition: none;
     }
+}
+
+#projectsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#box{
+    width:960px;
+    height: 480px;
+    background-color: rgba(223, 223, 223, 0.5);
+    border-radius:75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box h2{
+    margin-top:-40%;
+    font-family: SanFranProBold;
+}
+
+#box i{
+    font-size: 24pt;
+    color: black;
+    text-align: center;
 }
 
