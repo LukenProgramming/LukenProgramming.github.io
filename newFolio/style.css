@@ -1,0 +1,48 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+#header h1{
+    display: inline-block;
+    color: rgb(34, 181, 181);
+    width: 50vw;
+    text-align: center;
+}
+
+#header p{
+    display: inline-block;
+    width: 50vw;
+    font-size: 24pt;
+}
+
+nav{
+    text-align: center;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(44, 215, 215);
+    border-radius: 10px;
+}
+
+nav li a:hover{
+    color: white;
+}
