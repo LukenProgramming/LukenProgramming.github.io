@@ -103,11 +103,13 @@ nav li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
 }
 
 #box h2{
-    margin-top:-40%;
+    margin-top:-20%;
     font-family: SanFranProBold;
+    position: absolute;
 }
 
 #box i{
