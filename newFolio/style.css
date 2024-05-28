@@ -98,7 +98,7 @@ nav li a:hover{
 #box{
     width:960px;
     height: 480px;
-    background-color: rgba(223, 223, 223, 0.5);
+    background-color: gray;
     border-radius:75px;
     display: flex;
     justify-content: center;
