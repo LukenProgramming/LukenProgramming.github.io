@@ -46,6 +46,7 @@ div{
 
 nav{
     text-align: center;
+    background-color: white;
 }
 nav li a{
     text-decoration: none;
@@ -84,3 +85,4 @@ nav li a:hover{
         transition: none;
     }
 }
+
