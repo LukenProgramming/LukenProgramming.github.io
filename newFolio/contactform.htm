@@ -1,39 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Luke.n.Programming | Contact</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="/fonts.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/fonts.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <nav>
-        <ul>
-          <li><a href="homepage.htm">Home <i class='bx bx-home'></i></a></li>
-          <li><a href="contactform.htm">Contact <i class='bx bx-edit-alt'></i></a></li>
-          <li><a href="https://linktr.ee/lukenprogramming" target="_blank">Socials Linktree<sup><i class='bx bx-link-external' ></i></sup></a></li>
-        </ul>
-      </nav>
-      <div class="contactPara">
-        <p>Want to work together on a website? Excited to get a new partner at your software or web development firm? Look no further! I am more than happy to take emails from any interested peers who want to get assistance or are looking to offer a job in IT. Simply fill in the form below and will reply A$AP</p>
-      </div>
-        <div class="emailForm">
-          <form>
-            <input type="text" name="name" id="name" placeholder="Your Name">
-            <br>
-            <br>
-            <input type="email" name="email" id="email" placeholder="Email">
-            <br>
-            <br>
-            <textarea name="message" id="message" placeholder="Your message here:" style="font-family: SanFranProNormal; width: 50vw; height: 20vh;"></textarea>
-            <br>
-            <br>
-            <button type="submit">Send</button>
-            <button type="reset">Erase all</button>
-          </form>
-        </div>
-      <script src="script.js"></script>
-</body>
+      <ul>
+        <li>
+          <a href="homepage.htm">Home <i class="bx bx-home"></i></a>
+        </li>
+        <li>
+          <a href="contactform.htm">Contact <i class="bx bx-edit-alt"></i></a>
+        </li>
+        <li>
+          <a href="https://linktr.ee/lukenprogramming" target="_blank"
+            >Socials Linktree<sup><i class="bx bx-link-external"></i></sup
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div id="contactPara" class="hidden">
+      <p>
+        Want to work together on a website? Excited to get a new partner at your
+        software or web development firm? Look no further! I am more than happy
+        to take emails from any interested peers who want to get assistance or
+        are looking to offer a job in IT. Simply fill in the form below and will
+        reply A$AP <img src="/images/asaprocky.jpg" alt="asap" height="72pt" width="96pt"> 
+      </p>
+    </div>
+    <div id="emailForm" class="hidden">
+      <form>
+        <input type="text" name="name" id="name" placeholder="Your Name" />
+        <br />
+        <br />
+        <input type="email" name="email" id="email" placeholder="Email" />
+        <br />
+        <br />
+        <textarea
+          name="message"
+          id="message"
+          placeholder="Your message here:"
+          style="font-family: SanFranProNormal; width: 50vw; height: 20vh"
+        ></textarea>
+        <br />
+        <br />
+        <button type="submit">Send</button>
+        <button type="reset">Erase all</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>

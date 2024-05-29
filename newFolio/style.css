@@ -136,7 +136,7 @@ nav li a:hover {
     margin: 10px;
 }
 
-.emailForm{
+#emailForm{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,11 +144,11 @@ nav li a:hover {
     height: 50vh;
 }
 
-.emailForm input{
+#emailForm input{
     width: 19vw;
 }
 
-.contactPara{
+#contactPara{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -156,11 +156,12 @@ nav li a:hover {
     height: 1vh;
 }
 
-.contactPara p{
+#contactPara p{
     font-family: coolvetica;
     font-weight: lighter;
     margin-top: 10%;
     width: 75vw;
+    font-size: 24pt;
 }
 
 #stunningText{
