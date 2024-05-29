@@ -24,7 +24,7 @@ body {
 #header p {
     display: inline-block;
     width: 50vw;
-    font-size: 24pt;
+    font-size: 20pt;
     text-align: center;
     color: white;
 }
@@ -134,4 +134,51 @@ nav li a:hover {
 #box ol{
     padding: 10px;
     margin: 10px;
+}
+
+.emailForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    height: 50vh;
+}
+
+.emailForm input{
+    width: 19vw;
+}
+
+.contactPara{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    height: 1vh;
+}
+
+.contactPara p{
+    font-family: coolvetica;
+    font-weight: lighter;
+    margin-top: 10%;
+    width: 75vw;
+}
+
+#stunningText{
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: stunningAnimation;
+}
+
+@keyframes stunningAnimation{
+    0% { color: #f72585; }
+  10% { color: #b5179e; }
+  20% { color: #7209b7; }
+  30% {color: #560bad;}
+  40% {color: #480ca8;}
+  50% {color: #3a0ca3;}
+  60% {color:#3f37c9}
+  70% {color: #4361ee;}
+  80% {color: #4895ef;}
+  90% {color: #4cc9f0;}
+  100% {color: #f72585;}
 }
