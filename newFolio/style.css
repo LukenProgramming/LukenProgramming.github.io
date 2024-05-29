@@ -32,10 +32,13 @@ body {
 @media (max-width: 768px) {
     #header {
         flex-direction: column;
+        padding: 20px;
+        margin-top: 80px;
     }
 
     #header h1 {
         width: 100%;
+        font-size: 20px;
     }
 
     #header p {
@@ -43,11 +46,47 @@ body {
         padding: 0;
         text-align: center;
         margin: 0;
+        font-size: 14px;
     }
 
     #box {
         height: 75vh;
-        width: 45vw;
+        width: 100%;
+        padding: 10px;
+    }
+    nav li {
+        display: block;
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    #projectsContainer {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #box h2 {
+        font-size: 18px;
+    }
+
+    #contactPara{
+        min-height: 100vh;
+    }
+
+    #contactPara p {
+        font-size: 14px;
+    }
+
+    #emailForm input,
+    #emailForm textarea {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    #emailForm button {
+        width: 100%;
+        margin: 5px 0;
+        font-size: 14px;
     }
 }
 
@@ -154,6 +193,7 @@ nav li a:hover {
     align-items: center;
     margin-top: 10%;
     height: 1vh;
+    height: 20vh;
 }
 
 #contactPara p{
