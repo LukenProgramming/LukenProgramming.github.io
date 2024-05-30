@@ -50,7 +50,7 @@ body {
 
     #header h1 {
         width: 100%;
-        font-size: 20px;
+        font-size: 48px;
     }
 
     #header p {
@@ -58,7 +58,7 @@ body {
         padding: 0;
         text-align: center;
         margin: 0;
-        font-size: 14px;
+        font-size: 28px;
     }
 
     #box {
@@ -99,6 +99,15 @@ body {
         width: 100%;
         margin: 5px 0;
         font-size: 14px;
+    }
+    .logo-container{
+        overflow: scroll;
+    }
+    .logo-container i{
+        width: 50px;
+    }
+    .logo-container div{
+        width: 100px;
     }
 }
 
