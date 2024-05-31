@@ -24,6 +24,7 @@ body {
     display: inline-block;
     color: #0077b6;
     width: 50vw;
+    font-size: 48pt;
     text-align: center;
     font-family: ltSaeda;
 }
@@ -31,7 +32,7 @@ body {
 #header p {
     display: inline-block;
     width: 50vw;
-    font-size: 20pt;
+    font-size: 36pt;
     text-align: center;
     color: white;
     font-family: SanFranProNormal;
@@ -42,7 +43,7 @@ body {
 }
 
 @media (max-width: 768px) {
-    #header {
+     #header {
         flex-direction: column;
         padding: 20px;
         margin-top: 80px;
@@ -101,6 +102,7 @@ body {
         font-size: 14px;
     }
     .logo-container{
+        min-width: 300px;
         overflow: scroll;
     }
     .logo-container i{
@@ -150,7 +152,7 @@ nav li a:hover {
 .hidden {
     opacity: 0;
     filter: blur(2px);
-    transition: all 2s;
+    transition: all 3s;
 }
 
 .show {
@@ -166,12 +168,17 @@ nav li a:hover {
 }
 .prevProj{
     text-align: center;
+    font-size: 36pt;
 }
 
 #projectsContainer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#projectsContainer p, #projectsContainer ol{
+    font-size: 14pt;
 }
 
 #box {
