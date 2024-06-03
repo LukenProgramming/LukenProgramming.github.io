@@ -27,12 +27,12 @@ const hiddenLeftElements = document.querySelectorAll('.hiddenLeft');
 hiddenLeftElements.forEach((el) => observerLeft.observe(el));
 
 const fonts = ['SanFranProNormal','coolvetica','ltSaeda','SanFranProBold','Poppins','RobotoSlab','UbuntuNormal','UbuntuOther','MerriweatherNormal','MerriWeatherBold','UbuntuBold','DMSans','Kanit','KanitBold'];
-const colours = ['red','orange','yellow','green','blue','violet','lightblue','white','darkorange'];
+const colours = ['red','orange','yellow','green','blue','violet','lightblue','darkorange'];
 const styles = ['normal','italic'];
 const responsiveText = document.getElementById('responsiveText');
 
 responsiveText.onmouseover = () => {
-    let randomColourNum = Math.floor(Math.random() * 9);
+    let randomColourNum = Math.floor(Math.random() * 8);
     let randomFontNum = Math.floor(Math.random() * 14);
     let randomStyleNum = Math.floor(Math.random()*2);
     responsiveText.style.color = colours[randomColourNum];

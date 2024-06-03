@@ -29,10 +29,10 @@ body {
     font-family: ltSaeda;
 }
 
-#header p {
+#headerPara{
     display: inline-block;
     width: 50vw;
-    font-size: 30pt;
+    font-size:25pt;
     text-align: center;
     color: white;
     font-family: SanFranProNormal;
@@ -152,7 +152,7 @@ nav li a:hover {
 .hidden {
     opacity: 0;
     filter: blur(2px);
-    transition: all 3s;
+    transition: all 1.5s ease-in-out;
 }
 
 .show {
@@ -332,4 +332,8 @@ button{
     border-radius: 10px;
     border: none;
     margin: 0 5px 0 5px;
+}
+
+#responsiveText{
+    transition: all 900ms ease-in-out;
 }
