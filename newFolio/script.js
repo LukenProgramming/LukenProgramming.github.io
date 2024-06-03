@@ -26,14 +26,14 @@ const observerLeft = new IntersectionObserver((entries) => {
 const hiddenLeftElements = document.querySelectorAll('.hiddenLeft');
 hiddenLeftElements.forEach((el) => observerLeft.observe(el));
 
-const fonts = ['SanFranProNormal','coolvetica','ltSaeda','SanFranProBold','Poppins'];
-const colours = ['red','orange','yellow','green','blue','violet'];
+const fonts = ['SanFranProNormal','coolvetica','ltSaeda','SanFranProBold','Poppins','RobotoSlab','UbuntuNormal','UbuntuOther','MerriweatherNormal','MerriWeatherBold','UbuntuBold','DMSans','Kanit','KanitBold'];
+const colours = ['red','orange','yellow','green','blue','violet','lightblue','white','darkorange'];
 const styles = ['normal','italic'];
 const responsiveText = document.getElementById('responsiveText');
 
 responsiveText.onmouseover = () => {
-    let randomColourNum = Math.floor(Math.random() * 6);
-    let randomFontNum = Math.floor(Math.random() * 3);
+    let randomColourNum = Math.floor(Math.random() * 9);
+    let randomFontNum = Math.floor(Math.random() * 14);
     let randomStyleNum = Math.floor(Math.random()*2);
     responsiveText.style.color = colours[randomColourNum];
     responsiveText.style.fontStyle = styles[randomStyleNum];
@@ -41,8 +41,8 @@ responsiveText.onmouseover = () => {
 }
 
 responsiveText.onmouseout = () => {
-    let randomColourNum = Math.floor(Math.random() * 6);
-    let randomFontNum = Math.floor(Math.random() * 5);
+    let randomColourNum = Math.floor(Math.random() * 9);
+    let randomFontNum = Math.floor(Math.random() * 14);
     let randomStyleNum = Math.floor(Math.random()*2);
     responsiveText.style.color = colours[randomColourNum];
     responsiveText.style.fontStyle = styles[randomStyleNum];
