@@ -34,21 +34,11 @@
       </p>
     </div>
     <div id="emailForm" class="hidden">
-      <form>
+     <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="fd6f5a23-d6ec-42fa-8369-aced87c1db30">
         <input type="text" name="name" id="name" placeholder="Your Name" />
-        <br />
-        <br />
         <input type="email" name="email" id="email" placeholder="Email" />
-        <br />
-        <br />
-        <textarea
-          name="message"
-          id="message"
-          placeholder="Your message here:"
-          style="font-family: SanFranProNormal;"
-        ></textarea>
-        <br />
-        <br />
+        <textarea name="message" required></textarea>
         <button type="submit">Send</button>
         <button type="reset">Erase all</button>
       </form>

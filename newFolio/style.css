@@ -337,3 +337,12 @@ button{
 #responsiveText{
     transition: all 900ms ease-in-out;
 }
+
+form{
+    margin: 5px;
+}
+
+input, textarea{
+    margin: 10px;
+    display: block;
+}
